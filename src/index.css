@@ -52,6 +52,16 @@ background: linear-gradient(0deg, rgba(133,39,73,0.8477591720281863) 0%, rgba(22
   color: rgba(255, 255, 255, 1);
   box-shadow: #cc3686 0 0 12px 4px;
 }
+.scroll{
+  overflow-y:scroll;
+  scroll-snap-type: y mandatory;
+  height:100vh;
+  
+
+}
+.scrolli{
+  scroll-snap-align: start;
+}
 
 
 

@@ -1,24 +1,21 @@
-
-
 import relax from '../Images/relax.png'
 import shortn from '../Images/shortn.png'
 import shanks from '../Images/shanks.png'
+
 import { SiReact, SiSolidity, SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
 import { AiFillApi } from 'react-icons/ai'
+
 import React from 'react';
+
 import { Carousel } from 'react-responsive-carousel';
-
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-
-
 
 
 export const Projects = () => {
 
 
     return (
-        <div className='h-screen px-32 bg-[#161c32] '>
+        <div className='h-screen px-32 bg-[#161c32]'>
             <h1 className='flex justify-center text-4xl link-underline text-white'>Projects</h1>
             <div className=' mt-20 mx-0'>
 

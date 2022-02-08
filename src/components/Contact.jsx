@@ -1,9 +1,12 @@
 import contact from '../Images/contact.png'
+
 import { SiFacebook, SiLinkedin, SiInstagram } from 'react-icons/si';
 import { FaDev } from 'react-icons/fa'
+
 import emailjs from 'emailjs-com'
 import { init } from '@emailjs/browser';
 init("user_5ebyVJIAhioPAlyHLXp3O");
+
 import React, { useState } from 'react';
 
 export const Contact = () => {
@@ -37,10 +40,7 @@ export const Contact = () => {
             alert('Please fill in all fields.');
         }
     }
-    // const isValidEmail = email => {
-    //     const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    //     return regex.test(String(email).toLowerCase());
-    // };
+
 
     return <div className='h-screen bg-[#161c32]'>
         <h1 className='flex justify-center text-center text-4xl link-underline text-white'>Contact</h1>

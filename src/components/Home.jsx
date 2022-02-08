@@ -12,7 +12,7 @@ export const Home = () => {
                 <div className='text-2xl'>
                     (<Typewriter
 
-                        words={['Frontend Dev', 'Backend Dev', 'UI/UX Designer', 'More to gain']}
+                        words={['Frontend Dev', 'Backend Dev', 'UI/UX Designer', 'Open Source Contributor', 'More to gain']}
                         loop={0}
                         cursor
                         cursorStyle='|'
@@ -20,11 +20,10 @@ export const Home = () => {
                         deleteSpeed={100}
                         delaySpeed={1500}
 
-
                     />)
                 </div>
             </div>
 
-        </div > // max-w bg-[#161c32]
+        </div >
     )
 };
